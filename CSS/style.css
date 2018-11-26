@@ -1,3 +1,7 @@
+body {
+background:red url(images/bg.png) repeat-x;
+}
+
 #wrap {
   width:700px; 
   margin: 0px auto 15px auto;

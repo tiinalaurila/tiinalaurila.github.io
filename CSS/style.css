@@ -106,5 +106,12 @@ font-size: 16;
 }
 
 ol, ul{
-color:#F8F8FF;
+color:#FFFFFF;
+}
+li::before {
+  content: "•"; 
+  color: red;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
 }

@@ -1,13 +1,13 @@
 body {
-background:		#FFB6C1 url(images/bg.png) repeat-x;
-}
+     background-color: #FFB6C1;
+     }
 
 #wrap {
   width:700px; 
   margin: 0px auto 15px auto;
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-size:12px
-  color:#666666;
+  color:#FFFFFF;
 }
 
 /*Header*/
@@ -18,21 +18,24 @@ background:		#FFB6C1 url(images/bg.png) repeat-x;
   color:#A52A2A;
 }
 
-#topbar {
-  78px;
-}
+#topbar{
+       78px;
+       }
 
-/*Header Menu*/
 #topmenu {
   display:block;
   list-style:none;
-  padding: 0 0px 278px;
+  padding: 0 0px 0px 278px;
   float:right;
   width:415px;
+  background color:#FFF0F5;
+  position:fixed;
 }
+
 #topmenu li{
   display:inline;
 }
+
 #topmenu a{
   display: block;
   float:left;
@@ -42,19 +45,19 @@ background:		#FFB6C1 url(images/bg.png) repeat-x;
   padding: 9px 15px 0px 15px;
   text-align: center;
 }
+
 #topmenu a, #topmenu a:visited, #topmenu a:active{
   color:#FFFFFF;
 }
 #topmenu a:hover{
 color:#ffffff;
-  background color: #B52E10;
+  background color: #FFE4E1;
 }
 #topmenu .active a, #topmenu .active a:visited, topmenu .active a:active{
 #color:FFFFFF;
   background-color:#B42D0F;
 }
 
-/*Content*/
 #content {
 background-color:#FFFFFF;
 }
@@ -76,13 +79,13 @@ line-height:22px;
 background:#efefef;
   display:block;
   margin:5px;
-  font: Georgia, "Times New Roman",Times, serif;
+  font: Helvetica, Arial ,Verdana, serif;
   font-style:italic;
 }
 h1, h2, h3, h4, h5{
-color:#B32C04;
+color:#C71585;
   font-weight:bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, Verdana;
 }
 
 #mainpage h1{

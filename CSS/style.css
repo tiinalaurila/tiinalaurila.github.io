@@ -111,13 +111,4 @@ font-size: 16;
 
 ol, ul{
 color:#FFFFFF;
-  list-style:none;
-}
-
-ul::before {
-  content: "•"; 
-  color: red;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
 }

@@ -13,15 +13,14 @@ body {
 
 /*Header*/
 #header {
-  height:242px;
-  margin: 0px auto 15px auto;
-  font-family:Verdana, Arial, Helvetica, sans-serif;
-  color:#A52A2A;
+     height:242px;
+     background:url(Images/header.png) no-repeat left top;
+     clear: both;
 }
 
-#topbar{
-       78px;
-       }
+#topbar {
+     78px;
+}
 
 #topmenu {
   display:block;

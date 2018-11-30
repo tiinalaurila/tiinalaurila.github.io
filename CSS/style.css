@@ -10,7 +10,7 @@ background:		#FFB6C1 url(images/bg.png) repeat-x;
   color:#666666;
 }
 
-
+/*Header*/
 #header {
   height:242px;
   margin: 0px auto 15px auto;
@@ -108,6 +108,7 @@ font-size: 16;
 ol, ul{
 color:#FFFFFF;
 }
+
 li::before {
   content: "•"; 
   color: red;

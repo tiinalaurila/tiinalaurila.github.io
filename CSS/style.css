@@ -116,5 +116,7 @@ color:#FFFFFF;
 }
 
 hr{
-border-color:mediumvioletred;
+background-color:mediumvioletred;
+height:1px;
+     border:0px;
 }

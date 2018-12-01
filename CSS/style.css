@@ -96,7 +96,7 @@ font-size:24px;
   font-size_18px;
   padding-top:20px;
   padding-bottom:5px;
-  border-bottom:1px solid #B52E10;
+  border-bottom:1px solid #C71585;
 }
 
 #mainpage h3{
@@ -116,7 +116,7 @@ color:#FFFFFF;
 }
 
 hr{
-background-color:mediumvioletred;
+background-color:#C71585;
 height:1px;
      border:0px;
 }

@@ -14,12 +14,11 @@ body {
 /*Header*/
 #header {
      height:242px;
-     /*background:url(https://github.com/tiinalaurila/tiinalaurila.github.io/blob/master/Images/header.png?raw=true) no-repeat left top;*/
      clear: both;
 }
 
 #topbar {
-     78px;
+    height: 78px;
 }
 
 #topmenu {
@@ -28,9 +27,6 @@ body {
   padding: 0 0px 0px 278px;
   float:center;
   width:415px;
-     background-color: #444422;
-	position: fixed;
-
 }
 
 #topmenu li{

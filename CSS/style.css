@@ -54,7 +54,7 @@ color:#CD5C5C;
 background-color:#C71585;
 }
 
-#topmenu .active a, #topmenu .active a:visited, topmenu .active a:active{
+#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
 color:#FFFFFF;
 background-color:#C71585;
 }

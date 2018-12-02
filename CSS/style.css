@@ -98,14 +98,16 @@ h1, h2, h3, h4, h5 {
 
 #mainpage h1 {
           font-size:24px;
-          color: #C71585;
+          padding-top:20px;
+          padding-bottom:5px;
+          border-bottom:1px solid #C71585;
           }
 
 #mainpage h2 {
           font-size:18px;
-          padding-top:20px;
+          /*padding-top:20px;
           padding-bottom:5px;
-          border-bottom:1px solid #C71585;
+          border-bottom:1px solid #C71585;*/
           }
 
 #mainpage h3 {
@@ -113,12 +115,12 @@ h1, h2, h3, h4, h5 {
           }
 
 #mainpage h4 {
-          font-size:18;
+          font-size:18px;
           color: #DB7093;
           }
 
 #mainpage h5 {
-          font-size: 16;
+          font-size: 16px;
           }
 
 #footer {

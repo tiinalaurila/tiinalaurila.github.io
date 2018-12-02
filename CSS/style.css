@@ -25,6 +25,8 @@ body {
 table, th, td {
 border:1px solid #C71585;
 border-collapse: collapse;
+color: #DB7093;
+padding: 15px;     
 }
 
 #topmenu {

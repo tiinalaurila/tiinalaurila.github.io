@@ -91,11 +91,11 @@ color:#F2F7F3;
 
 #mainpage h1{
 font-size:24px;
-  /*color: #F2F7F3;*/
+color: #C71585;
 }
 
 #mainpage h2{
-  font-size_18px;
+  font-size:18px;
   padding-top:20px;
   padding-bottom:5px;
   border-bottom:1px solid #C71585;

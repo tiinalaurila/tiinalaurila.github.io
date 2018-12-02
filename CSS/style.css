@@ -26,8 +26,10 @@ body {
   display:block;
   list-style:none;
   padding: 0 0px 0px 278px;
-  float:center;
+  float:right;
   width:415px;
+     background-color:#FFFFFF;
+     position:fixed;
 }
 
 #topmenu li{
@@ -48,8 +50,8 @@ body {
   color:#FFFFFF;
 }
 #topmenu a:hover{
-color:#ffffff;
-  background color: #FF69B4;
+#color:#FFFFFF;
+  background-color:#C71585;
 }
 #topmenu .active a, #topmenu .active a:visited, topmenu .active a:active{
 #color:#FFFFFF;

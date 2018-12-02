@@ -47,15 +47,16 @@ body {
 }
 
 #topmenu a, #topmenu a:visited, #topmenu a:active{
-  color:#FFFFFF;
+color:#FFFFFF;
 }
 #topmenu a:hover{
-#color:#FFFFFF;
-  background-color:#C71585;
+color:#FFFFFF;
+background-color:#C71585;
 }
+
 #topmenu .active a, #topmenu .active a:visited, topmenu .active a:active{
-#color:#FFFFFF;
-  background-color:#C71585;
+color:#FFFFFF;
+background-color:#C71585;
 }
 
 #content {

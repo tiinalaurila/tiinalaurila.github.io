@@ -84,14 +84,14 @@ background:#efefef;
   font-style:italic;
 }
 h1, h2, h3, h4, h5{
-color:#C71585;
+color:#F2F7F3;
   font-weight:bold;
   font-family: Arial, Helvetica, Verdana;
 }
 
 #mainpage h1{
 font-size:24px;
-  color: #F2F7F3;
+  /*color: #F2F7F3;*/
 }
 
 #mainpage h2{

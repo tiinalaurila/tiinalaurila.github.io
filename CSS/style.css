@@ -22,6 +22,11 @@ body {
           height: 78px;
           }
 
+table th, td {
+border:1px solid #C71585;
+border-collapse: collapse;
+}
+
 #topmenu {
           display:block;
           list-style:none;

@@ -108,6 +108,7 @@ font-weight: bold;
 
 #mainpage h4{
   font-size:18;
+  color: #DB7093;
 }
 
 #mainpage h5{
@@ -119,7 +120,7 @@ font-size: 16;
 }
 
 ol, ul{
-color:#FFFFFF;
+color:#DB7093;
 }
 
 hr{

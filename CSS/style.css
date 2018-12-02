@@ -1,5 +1,5 @@
 body {
-     background-color: #ff99bb;
+     background-color: #F08080;
      align:center;
      }
 
@@ -47,10 +47,10 @@ body {
 }
 
 #topmenu a, #topmenu a:visited, #topmenu a:active{
-color:#FFFFFF;
+color:#CD5C5C	;
 }
 #topmenu a:hover{
-color:#FFFFFF;
+color:#CD5C5C;
 background-color:#C71585;
 }
 

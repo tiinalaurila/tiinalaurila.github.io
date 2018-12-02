@@ -28,7 +28,7 @@ body {
   padding: 0 0px 0px 278px;
   float:right;
   width:415px;
-     background-color:#FFB6C1;
+     background-color:#FFFFFF;
      position:fixed;
 }
 
@@ -47,10 +47,10 @@ body {
 }
 
 #topmenu a, #topmenu a:visited, #topmenu a:active{
-color:#CD5C5C	;
+color:#FFB6C1;
 }
 #topmenu a:hover{
-color:#CD5C5C;
+color:#FFFFFF;
 background-color:#C71585;
 }
 

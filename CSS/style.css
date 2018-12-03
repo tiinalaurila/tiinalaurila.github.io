@@ -24,13 +24,13 @@ body {
 
 table {
 border-spacing: 5px;
+background-color:#ffcccc;
 }
 
 table, th, td {
 border:2px solid #C71585;
 color: #DB7093;
 padding: 15px;
-background-color:#ffe6ee;
 }
 
 th {
@@ -38,6 +38,11 @@ text-align: left;
 font-weight: bold;
 font-color:#C71585;
 }
+
+th, td{
+background-color:#ffe6e6;
+}
+
 
 
 

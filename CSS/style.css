@@ -39,8 +39,8 @@ font-weight: bold;
 font-color:#C71585;
 }
 
-th, td{
-background-color:#ffe6e6;
+td{
+          text-align:center;
 }
 
 

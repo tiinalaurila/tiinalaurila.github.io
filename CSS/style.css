@@ -2,11 +2,10 @@ body {
           background-color: #FFE4E1;
           align:center;
           body{
-    /*background-image: url("img_tree.gif");
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
+          /*background-image: url("img_tree.gif");
+          background-repeat: no-repeat;
+          background-attachment: fixed;*/
 }
-          }
 
 #wrap {
           width:700px; 
@@ -14,46 +13,40 @@ body {
           font-family:Verdana, Arial, Helvetica, sans-serif;
           font-size:12px;
           color:#FFFFFF;
-          }
+}
 
-/*Header*/
 #header {
           height:242px;
           background:url(https://github.com/tiinalaurila/tiinalaurila.github.io/blob/master/Images/header.png?raw=true) no-repeat left top;
           clear: both;
-          }
+}
 
 #topbar {
           height: 78px;
-          }
+}
 
 table {
-border-spacing: 5px;
-background-color:#ffcccc;
+          border-spacing: 5px;
+          background-color:#ffcccc;
 }
 
 table, th, td {
-border:2px solid #C71585;
-color: #DB7093;
-padding: 15px;
+          border:2px solid #C71585;
+          color: #DB7093;
+          padding: 15px;
 }
 
 th {
-text-align: left;
-font-weight: bold;
-font-color:#C71585;
-                    background-color:#ffe6f2;
-
+          text-align: left;
+          font-weight: bold;
+          font-color:#C71585;
+          background-color:#ffe6f2;
 }
 
-td{
+td {
           text-align:center;
-                    background-color:#ffe6f2;
-
+          background-color:#ffe6f2;
 }
-
-
-
 
 #topmenu {
           display:block;
@@ -63,11 +56,11 @@ td{
           width:415px;
           background-color:#FFB6C1;
           position:fixed;
-          }
+}
 
 #topmenu li {
           display:inline;
-          }
+}
 
 #topmenu a {
           display: block;
@@ -77,38 +70,38 @@ td{
           text-decoration:none;
           padding: 9px 15px 0px 15px;
           text-align: center;
-          }
+}
 
 #topmenu a, #topmenu a:visited, #topmenu a:active {
           color:#FFFFFF;
-          }
+}
 
 #topmenu a:hover {
           color:#FFFFFF;
           background-color:#C71585;
-          }
+}
 
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
           color:#FFFFFF;
           background-color:#C71585;
-          }
+}
 
 #content {
           background-color:#FFFFFF;
-          }
+}
 
 #mainpage {
           width:700px;
           float:left;
           padding: 5px 5px 5px 0px;
           height:auto;
-          }
+}
 
 #mainpage p {
           line-height:22px;
           margin:10px 0px 22px 0px;
           text-align:justify;
-          }
+}
 
 #mainpage blockquote {
           background:#efefef;
@@ -116,14 +109,14 @@ td{
           margin:5px;
           font: Helvetica, Arial ,Verdana, serif;
           font-style: italic;
-          }
+}
 
 
 
 h1, h2, h3, h4, h5 {
           font-weight:bold;
           font-family: Arial, Helvetica, Verdana;
-          }
+}
 
 #mainpage h1 {
           font-size:24px;
@@ -131,38 +124,34 @@ h1, h2, h3, h4, h5 {
           padding-bottom:5px;
           border-bottom:1px solid #C71585;
           color:#C71585;
-
-          }
+}
 
 #mainpage h2 {
           font-size:22px;
           padding-top:10px;
           padding-bottom:2px;
           color:#C71585;
-
-          }
+}
 
 #mainpage h3 {
           font-size:20px;
           color:#C71585;
-
-          }
+}
 
 #mainpage h4 {
           font-size:17px;
           color:#C71585;
-
 }
 
 #mainpage h5 {
- font-size:15px;
- color:#C71585;
+          font-size:15px;
+          color:#C71585;
           font-weight:normal;
 }
 
 #footer {
-
-        }
+          color:#C71585;
+}
 
 ol, ul {
           color:#DB7093;
@@ -172,17 +161,17 @@ hr {
           background-color:#C71585;
           height:1px;
           border:0px;
-  }
+}
 
-form{
-font-color:#C71585;
+form {
+          font-color:#C71585;
 }
 
 #drag {
-    float: left;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
+          float: left;
+          width: 50px;
+          height: 50px;
+          margin: 10px;
+          padding: 12px;
+          border: 2px solid #C71585;
 }

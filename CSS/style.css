@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5 {
           }
 
 #mainpage h2 {
-          font-size:18px;
+          font-size:22px;
           /*padding-top:20px;
           padding-bottom:5px;
           border-bottom:1px solid #C71585;*/
@@ -143,12 +143,12 @@ h1, h2, h3, h4, h5 {
           }
 
 #mainpage h4 {
-          font-size:18px;
+          font-size:16px;
           color: #DB7093;
           }
 
 #mainpage h5 {
-          font-size: 16px;
+          font-size: 14px;
           }
 
 #footer {

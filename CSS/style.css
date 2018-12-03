@@ -1,7 +1,7 @@
 body {
-          /*background-color: #FFE4E1;*/
+          background-color: #FFE4E1;
           align:center;
-          background: url(https://github.com/tiinalaurila/tiinalaurila.github.io/blob/master/Images/BG.png?raw=true);
+          background: url("https://github.com/tiinalaurila/tiinalaurila.github.io/blob/master/Images/BG.png?raw=true");
           background-repeat:repeat-y;
           background-attachment: fixed;
 }
@@ -16,7 +16,7 @@ body {
 
 #header {
           height:242px;
-          background:url(https://github.com/tiinalaurila/tiinalaurila.github.io/blob/master/Images/header.png?raw=true) no-repeat left top;
+          background:url("https://github.com/tiinalaurila/tiinalaurila.github.io/blob/master/Images/header.png?raw=true") no-repeat left top;
           align:center;
           clear: both;
 }

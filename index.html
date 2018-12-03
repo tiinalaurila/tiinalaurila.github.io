@@ -3,7 +3,7 @@
 <html>
   
   <head>
-    <title>Tiina's Good Quality Fun Site -edited 6</title>
+    <title>Tiina's Good Quality Fun Site</title>
     <link href="CSS/style.css" rel="stylesheet" type="text/css">
     
   </head>
@@ -22,8 +22,6 @@
 <li><a href="#form">Forms</a>
 </li>
 <li><a href="#media">Media </a>
-</li>
-<li><a href="#locate">Location </a>
 </li>
 <li><a href="drag">Drag & Drop</a>
 </li>
@@ -173,11 +171,37 @@ src="https://www.youtube.com/embed/OvskyHxk49Y">
   <hr>
 	
 <!--GeoLocation-->	
-<h2 id="locate"> Geo Location </h2>   
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+}
+function showError(error) {
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+            x.innerHTML = "User denied the request for Geolocation."
+            break;
+        case error.POSITION_UNAVAILABLE:
+            x.innerHTML = "Location information is unavailable."
+            break;
+        case error.TIMEOUT:
+            x.innerHTML = "The request to get user location timed out."
+            break;
+        case error.UNKNOWN_ERROR:
+            x.innerHTML = "An unknown error occurred."
+            break;
+    }
+}
 	
-<div id="map">
-		
-</div>
+</script>
   
 <!--Drag and drop-->
 <script>

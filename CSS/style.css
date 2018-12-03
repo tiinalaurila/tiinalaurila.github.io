@@ -27,7 +27,7 @@ border-spacing: 5px;
 }
 
 table, th, td {
-border:1px solid #C71585;
+border:2px solid #C71585;
 color: #DB7093;
 padding: 15px;
 }
@@ -35,6 +35,7 @@ padding: 15px;
 th {
 text-align: left;
 font-weight: bold;
+font-color:#C71585;
 }
 
 

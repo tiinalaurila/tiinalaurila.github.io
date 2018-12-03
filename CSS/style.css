@@ -1,7 +1,7 @@
 body {
           /*background-color: #FFE4E1;*/
           align:center;
-          background-image: url("bg.png");
+          background-image: url("Images/bg.png");
           background-repeat:repeat-y;
           background-attachment: fixed;
 }

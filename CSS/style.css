@@ -118,8 +118,11 @@ td{
           font-style: italic;
           }
 
+basefont{
+          font-color: #DB7093;
+}
+
 h1, h2, h3, h4, h5 {
-          color:#C71585;
           font-weight:bold;
           font-family: Arial, Helvetica, Verdana;
           }
@@ -129,27 +132,27 @@ h1, h2, h3, h4, h5 {
           padding-top:20px;
           padding-bottom:5px;
           border-bottom:1px solid #C71585;
+          color:#C71585;
+
           }
 
 #mainpage h2 {
           font-size:22px;
           padding-top:10px;
           padding-bottom:2px;
+          color:#C71585;
+
           }
 
 #mainpage h3 {
           font-size:20px;
+          color:#C71585;
+
           }
 
 #mainpage h4 {
           font-size:16px;
-          color: #DB7093;
-          }
-
-#mainpage h5 {
-          color: #DB7093;
-
-          }
+}
 
 #footer {
 

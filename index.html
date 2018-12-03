@@ -2,100 +2,94 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ut-8" />
 <html>
   
-  <head>
+<head>
     <title>Tiina's Good Quality Fun Site</title>
-    <link href="CSS/style.css" rel="stylesheet" type="text/css">
-    
-  </head>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">    
+</head>
   
-  <body>
+<body>
     <div id="wrap">
-    <div id="topbar">
-    <div id="menus">
-    <ul id="topmenu">
-<li  class="active"><a href="#">Home</a>
-</li>
-<li><a href="#about">About</a>
-</li>
-<li><a href="#table">Table</a>
-</li>
-<li><a href="#form">Forms</a>
-</li>
-<li><a href="#media">Media </a>
-</li>
-<li><a href="#drag">Drag & Drop</a>
-</li>
-</ul>
-</div>
-</div>
-  <div id="header">
-  </div>
-<div id="content">
-<div id="mainpage">
-  
-        <h1 id="active">Welcome to my page!</h1>
+     <div id="topbar">
+      <div id="menus">
+       <ul id="topmenu">
+	<li  class="active"><a href="#">Home</a>
+	</li>
+	<li><a href="#about">About</a>
+	</li>
+	<li><a href="#table">Table</a>
+	</li>
+	<li><a href="#form">Forms</a>
+	</li>
+	<li><a href="#media">Media </a>
+	</li>
+	<li><a href="#drag">Drag & Drop</a>
+	</li>
+	</ul>
+       </div>
+      </div>
+     <div id="header">
+    </div>
+   <div id="content">
+    <div id="mainpage">  
+   	<h1 id="active">Welcome to my page!</h1>
         <h2>Please take a look around and have fun :)</h2>
-
-      
-  <h3 id="about"> About me </h3>
-  <ul>
+  	<h3 id="about"> About me </h3>
+<ul>
         <li> I am a second year game art student </li>
         <li> I foster cats </li>
         <li> My favorite color is pink </li>
-  </ul>
-    
+</ul>  
   <h3>My Top 3 Favourite Ice Cream Flavours</h3>
   <ol>  
         <li> Cookies and Cream</li>
         <li> Cocos and Choco</li>
         <li> Orange Marmalade</li>
   </ol>
-  <br>
-<hr>
+	    <br>
+	    <hr>
   
- 
   <!-- Table -->
-  <h3 id="table"> Table of Cats I've Fostered </h3>
+<h3 id="table"> Table of Cats I've Fostered </h3>
   <table>
-    <tr>
-      <th> Cat Name </th>
-      <th> Age </th>
-      <th> Personality </th>
-    </tr>
-    <tr>
-      <td> Luna </td>
-      <td> 2 years old </td>
-      <td> Sleepy</td>
-    </tr>
-        <tr>
-      <td> Topias </td>
-      <td> 2 years old </td>
-      <td> Bitey </td>
-    </tr>
-      <tr>
-        <td> Veeti </td>
-        <td> 3,5 years old </td>
-        <td> Anxious </td>
-    </tr>
+   <tr>
+     <th> Cat Name </th>
+     <th> Age </th>
+     <th> Personality </th>
+   </tr>
+   <tr>
+     <td> Luna </td>
+     <td> 2 years old </td>
+     <td> Sleepy</td>
+   </tr>
+   <tr>
+     <td> Topias </td>
+     <td> 2 years old </td>
+     <td> Bitey </td>
+   </tr>
+   <tr>
+     <td> Veeti </td>
+     <td> 3,5 years old </td>
+     <td> Anxious </td>
+   </tr>
   </table>
-  <br>
-  <hr>
+	    <br>
+	    <hr>
   
   <!-- Forms -->
-  <h3 id="form"> Forms </h3>
-  <h4> Basic Form</h4>
+<h3 id="form"> Forms </h3>
+<h4> Basic Form</h4>
   <form>
-   <h5> First Name: <input type="text" name="fname"><br>
+<h5> First Name: <input type="text" name="fname"><br>
     <br>
       Last Name: <input type="text" name="lname"> <br>
     <br>
-  
     Email: <input type="email" name="email"> <br>
     <br>
-    Gender: <br>
-    <input type="radio" name="gender" value="male" checked> Male <br>
-    <input type="radio" name="gender" value="female"> Female <br>
-    <input type="radio" name="gender" value="other"> Other <br>
+    Gender: 
+    <br>
+    	<input type="radio" name="gender" value="male" checked> Male <br>
+    	<input type="radio" name="gender" value="female"> Female <br>
+    	<input type="radio" name="gender" value="other"> Other <br>
     <br>
     Salutation: <select name="salutation">
         <option>Dr</option>
@@ -103,22 +97,19 @@
         <option>Mrs</option>
         <option>Miss</option>
         <option>Ms</option>
-    </select>
-
-     <input type="submit" value"Submit"> </h5>
+    		</select>
+  <input type="submit" value"Submit"> </h5>
   </form>
-  <br>
-    
-    <h4>Cat Form</h4>
+	    <br>
+<h4>Cat Form</h4>
   <form>
-    <h5> Favorite cat: <br>
+<h5> Favorite cat: <br>
     <input type="radio" name="cat" value="luna" checked> Luna The Sleepy <br>
     <input type="radio" name="cat" value="topias"> Topias the Biter <br>
     <input type="radio" name="cat" value="veeti"> Veeti The Anxious <br>
-      <input type="submit" value"Submit"></h5>
+    <input type="submit" value"Submit"></h5>
   </form>
-  <br>
-  
+	    <br>
 <h4> Validation Form </h4>
   
   <script>
@@ -143,32 +134,28 @@ return true;
 }
 </script>
   
-  <form name="myForm" onsubmit="return validateForm()" >
-<h5>Name: <input type="text" name="name" /><br/>
-Phone: <input type="text" name="phone" /><br/>
-E-mail: <input type="text" name="email" /><br/>
-  <input type="submit" value="Submit" /></h5>
+<form name="myForm" onsubmit="return validateForm()" >
+	<h5>Name: <input type="text" name="name" /><br/>
+	Phone: <input type="text" name="phone" /><br/>
+	E-mail: <input type="text" name="email" /><br/>
+  	<input type="submit" value="Submit" /></h5>
 </form>
-  
-  <br>
-  <hr>
-  
+	    <br>
+	    <hr>
 <h2 id="media"> Media </h2> 
-  
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/OvskyHxk49Y">
 </iframe>
   
-  <h5> Global Game Jam game I made the graphics for in 2016. </h5> 
-<br>
-  <hr>
- 
-  <h4> Spyro - Autumn Plains </h4>
-    <audio controls>
-  <source src="Audio/audiospyro.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-  <hr>
+<h5> Global Game Jam game I made the graphics for in 2016. </h5> 
+	    <br>
+	    <hr>
+<h4> Spyro - Autumn Plains </h4>
+    	<audio controls>
+ 	<source src="Audio/audiospyro.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+	</audio>
+	    <hr>
 	
 <!--GeoLocation-->	
 <button onclick="getLocation()" id="button">Click here to find your coordinates!</button>
@@ -220,21 +207,17 @@ ev.target.appendChild(document.getElementById(data));
 }
 </script>
 	
-  <h2>Drag and drop</h2>
+<h2>Drag and drop</h2>
 	<div id ="drag"  ondrop="drop(event)" ondragover="allowDrop(event)">
 		<img src="Images/ball.png" draggable="true" ondragstart="drag(event)" id="drag1" width="50" height="50">
 	</div>
 	<div id ="drag"  ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
-
-
-
-
 </div>
 </div>
-  <div id="footer">
-    <p> Tiina Laurila
-      <script type="text/javascript">var ct=new Date(); document.write(ct.getFullYear());</script>
-    </p>
+<div id="footer">
+	<p> Tiina Laurila
+      		<script type="text/javascript">var ct=new Date(); document.write(ct.getFullYear());</script>
+    	</p>
 </div>
 
 </body>

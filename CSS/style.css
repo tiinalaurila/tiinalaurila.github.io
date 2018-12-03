@@ -1,9 +1,9 @@
 body {
           background-color: #FFE4E1;
           align:center;
-          /*background-image: url("img_tree.gif");
+          background-image: url("bg.png");
           background-repeat: no-repeat;
-          background-attachment: fixed;*/
+          background-attachment: fixed;
 }
 
 #wrap {

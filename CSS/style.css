@@ -28,7 +28,7 @@ background-color:#ffcccc;
 }
 
 table, th, td {
-border:2px solid #C71585;
+border:2px dashed #C71585;
 color: #DB7093;
 padding: 15px;
 }

@@ -133,9 +133,8 @@ h1, h2, h3, h4, h5 {
 
 #mainpage h2 {
           font-size:22px;
-          /*padding-top:20px;
-          padding-bottom:5px;
-          border-bottom:1px solid #C71585;*/
+          padding-top:10px;
+          padding-bottom:2px;
           }
 
 #mainpage h3 {

@@ -156,7 +156,8 @@ h1, h2, h3, h4, h5 {
 
 #mainpage h5 {
  font-size:15px;
-          color:#C71585;
+ color:#C71585;
+          font-weight:normal;
 }
 
 #footer {

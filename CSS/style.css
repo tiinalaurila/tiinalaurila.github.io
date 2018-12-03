@@ -17,6 +17,7 @@ body {
 #header {
           height:242px;
           background:url(https://github.com/tiinalaurila/tiinalaurila.github.io/blob/master/Images/header.png?raw=true) no-repeat left top;
+          align:center;
           clear: both;
 }
 

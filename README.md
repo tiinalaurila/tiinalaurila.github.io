@@ -1,3 +1,3 @@
-# tiinalaurila.github.io
-www- kurssi repo
+My website
+www- kurssi
 2018 KAMK

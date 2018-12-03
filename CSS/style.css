@@ -1,6 +1,11 @@
 body {
           background-color: #FFE4E1;
           align:center;
+          body{
+    /*background-image: url("img_tree.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
           }
 
 #wrap {

@@ -22,17 +22,22 @@ body {
           height: 78px;
           }
 
+table {
+border-spacing: 5px;
+}
+
 table, th, td {
 border:1px solid #C71585;
-border-collapse: collapse;
 color: #DB7093;
 padding: 15px;
 }
 
 th {
-text-align:left;
-font-weight:bold;
+text-align: left;
+font-weight: bold;
 }
+
+
 
 #topmenu {
           display:block;

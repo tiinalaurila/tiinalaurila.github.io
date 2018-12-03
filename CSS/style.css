@@ -168,9 +168,9 @@ form {
 
 #drag {
           float: left;
-          width: 50px;
-          height: 50px;
+          width: 55px;
+          height: 55px;
           margin: 10px;
           padding: 12px;
-          border: 2px solid #C71585;
+          border: 2px dashed #C71585;
 }
